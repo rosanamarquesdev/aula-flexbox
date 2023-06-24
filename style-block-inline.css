@@ -1,0 +1,40 @@
+/* Resetar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: aqua;
+    /* display: inline; */
+}
+
+p {
+    /* display: inline; */
+    background-color: burlywood;
+}
+
+textarea {
+    background-color: blueviolet;
+}
+
+.container {
+    background-color: red;
+    padding: 20px;
+    height: 200px;
+
+    /* mudar para display flex */
+    /* display: flex; */
+}
+
+ul {
+    background-color: aqua; 
+    height: 200px;
+    /* padding: 20px; */
+}
+
+ul li {
+    background-color: blueviolet;
+    border: 1px solid black;
+}

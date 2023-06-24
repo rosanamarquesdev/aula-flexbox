@@ -1,0 +1,52 @@
+/* Resetar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flex Box */
+
+.flex-container {
+    background-color:aqua;
+    max-width: 500px;
+    height: 300px;
+
+    border: 1px solid black;
+
+    /* aplicar o flex box */
+    display: flex;
+    flex-wrap: wrap;
+    /*  flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;  */
+}
+
+.flex-item {
+    /* Sem definir o tamanho é stretch - vai arreganhar obedecendo a direcao do eixo*/
+    width: 400px;
+    height: 70px;
+
+    /* teste */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.flex-item.primeiro {
+    background-color: blue;
+}
+
+.flex-item.segundo {
+    background-color: blueviolet;
+}
+
+.flex-item.terceiro {
+    background-color: brown;
+}
+
+.flex-container-span {
+    background-color:bisque;
+    display: flex;
+    height: 300px;
+}
