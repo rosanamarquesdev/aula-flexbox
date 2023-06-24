@@ -8,45 +8,47 @@
 /* Flex Box */
 
 .flex-container {
-    background-color:aqua;
-    max-width: 500px;
-    height: 300px;
-
-    border: 1px solid black;
+    background-color:#b2e2f2;
+    width: 400px;
+    height: 900px;
 
     /* aplicar o flex box */
-    display: flex;
-    flex-wrap: wrap;
-    /*  flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center;  */
+    display: flex; 
 }
 
 .flex-item {
     /* Sem definir o tamanho é stretch - vai arreganhar obedecendo a direcao do eixo*/
-    width: 400px;
-    height: 70px;
+    /* width: 100px; */
+    /* correto é definir o tamanho dos items pelo flex-basis (tornando o width desnecessario) */
+    /* flex-basis: 100px; */
+    height: 100px;
+    flex-grow: 1;
 
-    /* teste */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
+
+    /* flex-shrink: 1; padrao */
 }
 
-.flex-item.primeiro {
-    background-color: blue;
+.primeiro {
+    background-color: #fabfb7;
+    /* flex-grow: 3; */
 }
 
-.flex-item.segundo {
-    background-color: blueviolet;
+.segundo {
+    background-color: #fdf9c4;
+    /* flex-shrink: 4; */
 }
 
-.flex-item.terceiro {
-    background-color: brown;
+.terceiro {
+    background-color: #ffda9e;
 }
 
-.flex-container-span {
+.quarto {
+    background-color: #c5c6c8;
+}
+
+/* .flex-container-span {
     background-color:bisque;
     display: flex;
     height: 300px;
-}
+} */
